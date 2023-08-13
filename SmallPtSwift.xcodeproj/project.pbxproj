@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53D2E68A2A871F38001FA78D /* SmallPtSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D2E6892A871F38001FA78D /* SmallPtSwiftApp.swift */; };
+		53D2E68E2A871F39001FA78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D2E68D2A871F39001FA78D /* Assets.xcassets */; };
+		53D2E6912A871F39001FA78D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D2E6902A871F39001FA78D /* Preview Assets.xcassets */; };
+		53D2E6B92A872269001FA78D /* PixelBuffer in Frameworks */ = {isa = PBXBuildFile; productRef = 53D2E6B82A872269001FA78D /* PixelBuffer */; };
+		53D2E6BB2A876F1C001FA78D /* PixelBuffer+Vec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D2E6BA2A876F1C001FA78D /* PixelBuffer+Vec.swift */; };
+		53D2E6BD2A877C63001FA78D /* Vec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D2E6BC2A877C63001FA78D /* Vec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53D2E6982A871F39001FA78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D2E67E2A871F38001FA78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D2E6852A871F38001FA78D;
+			remoteInfo = SmallPtSwift;
+		};
+		53D2E6A22A871F39001FA78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53D2E67E2A871F38001FA78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D2E6852A871F38001FA78D;
+			remoteInfo = SmallPtSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		532E6EF02A88C1A200DD0575 /* README_SmallptCpp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SmallptCpp.md; sourceTree = "<group>"; };
+		53D2E6862A871F38001FA78D /* SmallPtSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallPtSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D2E6892A871F38001FA78D /* SmallPtSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPtSwiftApp.swift; sourceTree = "<group>"; };
+		53D2E68D2A871F39001FA78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53D2E6902A871F39001FA78D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53D2E6922A871F39001FA78D /* SmallPtSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmallPtSwift.entitlements; sourceTree = "<group>"; };
+		53D2E6972A871F39001FA78D /* SmallPtSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallPtSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D2E6A12A871F39001FA78D /* SmallPtSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmallPtSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D2E6BA2A876F1C001FA78D /* PixelBuffer+Vec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PixelBuffer+Vec.swift"; sourceTree = "<group>"; };
+		53D2E6BC2A877C63001FA78D /* Vec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53D2E6832A871F38001FA78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D2E6B92A872269001FA78D /* PixelBuffer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2E6942A871F39001FA78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2E69E2A871F39001FA78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D2E67D2A871F38001FA78D = {
+			isa = PBXGroup;
+			children = (
+				532E6EF02A88C1A200DD0575 /* README_SmallptCpp.md */,
+				53D2E6882A871F38001FA78D /* SmallPtSwift */,
+				53D2E6872A871F38001FA78D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53D2E6872A871F38001FA78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53D2E6862A871F38001FA78D /* SmallPtSwift.app */,
+				53D2E6972A871F39001FA78D /* SmallPtSwiftTests.xctest */,
+				53D2E6A12A871F39001FA78D /* SmallPtSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53D2E6882A871F38001FA78D /* SmallPtSwift */ = {
+			isa = PBXGroup;
+			children = (
+				53D2E6BA2A876F1C001FA78D /* PixelBuffer+Vec.swift */,
+				53D2E6BC2A877C63001FA78D /* Vec.swift */,
+				53D2E6892A871F38001FA78D /* SmallPtSwiftApp.swift */,
+				53D2E68D2A871F39001FA78D /* Assets.xcassets */,
+				53D2E6922A871F39001FA78D /* SmallPtSwift.entitlements */,
+				53D2E68F2A871F39001FA78D /* Preview Content */,
+			);
+			path = SmallPtSwift;
+			sourceTree = "<group>";
+		};
+		53D2E68F2A871F39001FA78D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53D2E6902A871F39001FA78D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53D2E6852A871F38001FA78D /* SmallPtSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D2E6AB2A871F39001FA78D /* Build configuration list for PBXNativeTarget "SmallPtSwift" */;
+			buildPhases = (
+				53D2E6822A871F38001FA78D /* Sources */,
+				53D2E6832A871F38001FA78D /* Frameworks */,
+				53D2E6842A871F38001FA78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallPtSwift;
+			packageProductDependencies = (
+				53D2E6B82A872269001FA78D /* PixelBuffer */,
+			);
+			productName = SmallPtSwift;
+			productReference = 53D2E6862A871F38001FA78D /* SmallPtSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53D2E6962A871F39001FA78D /* SmallPtSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D2E6AE2A871F39001FA78D /* Build configuration list for PBXNativeTarget "SmallPtSwiftTests" */;
+			buildPhases = (
+				53D2E6932A871F39001FA78D /* Sources */,
+				53D2E6942A871F39001FA78D /* Frameworks */,
+				53D2E6952A871F39001FA78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D2E6992A871F39001FA78D /* PBXTargetDependency */,
+			);
+			name = SmallPtSwiftTests;
+			productName = SmallPtSwiftTests;
+			productReference = 53D2E6972A871F39001FA78D /* SmallPtSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53D2E6A02A871F39001FA78D /* SmallPtSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D2E6B12A871F39001FA78D /* Build configuration list for PBXNativeTarget "SmallPtSwiftUITests" */;
+			buildPhases = (
+				53D2E69D2A871F39001FA78D /* Sources */,
+				53D2E69E2A871F39001FA78D /* Frameworks */,
+				53D2E69F2A871F39001FA78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53D2E6A32A871F39001FA78D /* PBXTargetDependency */,
+			);
+			name = SmallPtSwiftUITests;
+			productName = SmallPtSwiftUITests;
+			productReference = 53D2E6A12A871F39001FA78D /* SmallPtSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53D2E67E2A871F38001FA78D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					53D2E6852A871F38001FA78D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					53D2E6962A871F39001FA78D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 53D2E6852A871F38001FA78D;
+					};
+					53D2E6A02A871F39001FA78D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 53D2E6852A871F38001FA78D;
+					};
+				};
+			};
+			buildConfigurationList = 53D2E6812A871F38001FA78D /* Build configuration list for PBXProject "SmallPtSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53D2E67D2A871F38001FA78D;
+			packageReferences = (
+				53D2E6B72A872269001FA78D /* XCRemoteSwiftPackageReference "PixelBuffer" */,
+			);
+			productRefGroup = 53D2E6872A871F38001FA78D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53D2E6852A871F38001FA78D /* SmallPtSwift */,
+				53D2E6962A871F39001FA78D /* SmallPtSwiftTests */,
+				53D2E6A02A871F39001FA78D /* SmallPtSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53D2E6842A871F38001FA78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D2E6912A871F39001FA78D /* Preview Assets.xcassets in Resources */,
+				53D2E68E2A871F39001FA78D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2E6952A871F39001FA78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2E69F2A871F39001FA78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53D2E6822A871F38001FA78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D2E6BB2A876F1C001FA78D /* PixelBuffer+Vec.swift in Sources */,
+				53D2E6BD2A877C63001FA78D /* Vec.swift in Sources */,
+				53D2E68A2A871F38001FA78D /* SmallPtSwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2E6932A871F39001FA78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D2E69D2A871F39001FA78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53D2E6992A871F39001FA78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D2E6852A871F38001FA78D /* SmallPtSwift */;
+			targetProxy = 53D2E6982A871F39001FA78D /* PBXContainerItemProxy */;
+		};
+		53D2E6A32A871F39001FA78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53D2E6852A871F38001FA78D /* SmallPtSwift */;
+			targetProxy = 53D2E6A22A871F39001FA78D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53D2E6A92A871F39001FA78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53D2E6AA2A871F39001FA78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		53D2E6AC2A871F39001FA78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmallPtSwift/SmallPtSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmallPtSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = 49L6XMWM9W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalamantalabs.SmallPtSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		53D2E6AD2A871F39001FA78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmallPtSwift/SmallPtSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmallPtSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = 49L6XMWM9W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalamantalabs.SmallPtSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		53D2E6AF2A871F39001FA78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49L6XMWM9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalamantalabs.SmallPtSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallPtSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmallPtSwift";
+			};
+			name = Debug;
+		};
+		53D2E6B02A871F39001FA78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49L6XMWM9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalamantalabs.SmallPtSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmallPtSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmallPtSwift";
+			};
+			name = Release;
+		};
+		53D2E6B22A871F39001FA78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49L6XMWM9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalamantalabs.SmallPtSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SmallPtSwift;
+			};
+			name = Debug;
+		};
+		53D2E6B32A871F39001FA78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49L6XMWM9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jalamantalabs.SmallPtSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SmallPtSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53D2E6812A871F38001FA78D /* Build configuration list for PBXProject "SmallPtSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D2E6A92A871F39001FA78D /* Debug */,
+				53D2E6AA2A871F39001FA78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D2E6AB2A871F39001FA78D /* Build configuration list for PBXNativeTarget "SmallPtSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D2E6AC2A871F39001FA78D /* Debug */,
+				53D2E6AD2A871F39001FA78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D2E6AE2A871F39001FA78D /* Build configuration list for PBXNativeTarget "SmallPtSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D2E6AF2A871F39001FA78D /* Debug */,
+				53D2E6B02A871F39001FA78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D2E6B12A871F39001FA78D /* Build configuration list for PBXNativeTarget "SmallPtSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D2E6B22A871F39001FA78D /* Debug */,
+				53D2E6B32A871F39001FA78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53D2E6B72A872269001FA78D /* XCRemoteSwiftPackageReference "PixelBuffer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/iOSBrett/PixelBuffer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53D2E6B82A872269001FA78D /* PixelBuffer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53D2E6B72A872269001FA78D /* XCRemoteSwiftPackageReference "PixelBuffer" */;
+			productName = PixelBuffer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 53D2E67E2A871F38001FA78D /* Project object */;
+}

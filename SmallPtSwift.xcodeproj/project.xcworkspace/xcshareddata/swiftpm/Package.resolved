@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "pixelbuffer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/iOSBrett/PixelBuffer",
+      "state" : {
+        "revision" : "d971f20ce83b884269d3e52b0fce019403ab67f0",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
