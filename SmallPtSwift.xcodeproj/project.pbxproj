@@ -34,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		532E6EF02A88C1A200DD0575 /* README_SmallptCpp.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SmallptCpp.md; sourceTree = "<group>"; };
+		537E71292AA3102F0002B266 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		53D2E6862A871F38001FA78D /* SmallPtSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallPtSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53D2E6892A871F38001FA78D /* SmallPtSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallPtSwiftApp.swift; sourceTree = "<group>"; };
 		53D2E68D2A871F39001FA78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		53D2E67D2A871F38001FA78D = {
 			isa = PBXGroup;
 			children = (
+				537E71292AA3102F0002B266 /* README.md */,
 				532E6EF02A88C1A200DD0575 /* README_SmallptCpp.md */,
 				53D2E6882A871F38001FA78D /* SmallPtSwift */,
 				53D2E6872A871F38001FA78D /* Products */,
